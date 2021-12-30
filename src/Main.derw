@@ -1,0 +1,10 @@
+import "../derw-packages/derw-lang/stdlib/src/List" exposing (foldl)
+
+add: number -> number -> number
+add a b =
+    a + b
+
+hello: void
+hello =
+    foldl add 0 [ 1, 2, 3 ]
+        |> console.log

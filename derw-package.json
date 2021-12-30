@@ -1,0 +1,7 @@
+{
+    "name": "example-repo",
+    "exposing": [],
+    "dependencies": {
+        "derw-lang/stdlib": "main"
+    }
+}
